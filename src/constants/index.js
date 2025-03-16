@@ -167,11 +167,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Dynamic & Responsive Recipe App Using APIs',
+    desc: ' I worked on fetching data from an API and rendering it seamlessly on the frontend. It was an amazing learning experience, helping me understand the synergy between backend and frontend technologies.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'This recipe app features a sleek UI with Material-UI, seamless API integration, and full responsiveness for both desktop and mobile. Users can explore recipes effortlessly and save their favorites for quick access.',
+    href: 'https://recipe-app-8a0a7.web.app',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -193,8 +193,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: 'skills/square-js-brands.svg',
       },
       {
         id: 4,
@@ -204,11 +204,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Futuristic AI-Powered Web App',
+    desc: 'A cutting-edge web application built with React and Tailwind CSS, delivering a stunning, modern UI with seamless responsiveness across all devices. Designed for an immersive user experience, this platform ensures fast performance, smooth animations, and an intuitive interface.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Built using React and Tailwind CSS, this project features a sleek and futuristic UI with full responsiveness for all screen sizes. The combination of modern design and optimized performance makes it a standout experience for users.',
+    href: 'https://gpt-3-77d64.web.app',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -232,22 +232,17 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: 'skills/square-js-brands.svg',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'To-Do App',
+    desc: 'A sleek and efficient To-Do app built with React and Tailwind CSS, offering a modern UI with seamless responsiveness. Featuring local storage integration, users can easily manage tasks without losing data, ensuring a smooth and persistent task-tracking experience.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Developed with React and Tailwind CSS, this To-Do app provides an intuitive and responsive interface. With local storage support, tasks are automatically saved, allowing users to manage their to-dos effortlessly across sessions.',
+    href: 'https://todo-app-97e46.web.app',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -269,22 +264,17 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: 'skills/square-js-brands.svg',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Foodie – Delicious Meals Delivered Fresh',
+    desc: 'A beautifully designed online food meal page built with React and Tailwind CSS, offering a seamless and engaging user experience. Featuring a modern UI, responsive layout, and intuitive navigation, this platform makes ordering meals effortless. Users can explore meal options, learn about healthy eating, and enjoy a smooth ordering process.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'Developed using React and Tailwind CSS, this online meal ordering page delivers an elegant and fully responsive experience. With a focus on UI/UX, it ensures easy navigation, eye-catching visuals, and a smooth user journey from meal selection to checkout.',
+    href: 'https://restaurant-website-d7141.web.app',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -306,13 +296,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: 'skills/square-js-brands.svg',
       },
     ],
   },
