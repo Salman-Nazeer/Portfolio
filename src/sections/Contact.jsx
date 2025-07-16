@@ -65,63 +65,85 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="relative my-12 md:my-16 lg:my-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+      {/* Background Container */}
+      <div className="fixed inset-0 -z-10">
+        <img
+          src="/assets/terminal.png"
+          alt="terminal background"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+      </div>
 
-        <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
-          <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+      {/* Content Container */}
+      <div className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16">
+        <div className="w-full max-w-4xl bg-gray-900/80 backdrop-blur-sm border border-gray-700 rounded-xl p-6 sm:p-8 md:p-10 lg:p-12">
+          <h3 className="text-3xl sm:text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
+            Let's talk
+          </h3>
+
+          <p className="text-base sm:text-lg text-gray-300 mt-3 text-center">
+            Whether you're looking to build a new website, improve your existing platform, or bring a unique project to
+            life, I'm here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
-            <label className="space-y-3">
-              <span className="field-label">Full Name</span>
+          {/* Contact Form */}
+          <form
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="mt-8 sm:mt-10 md:mt-12 flex flex-col space-y-4 sm:space-y-5 md:space-y-6">
+            {/* Name Field */}
+            <label className="space-y-2 sm:space-y-3">
+              <span className="block text-sm sm:text-base font-medium text-gray-300">Full Name</span>
               <input
                 type="text"
                 name="name"
                 value={form.name}
                 onChange={handleChange}
                 required
-                className="field-input"
-                placeholder="ex., John Doe"
+                className="w-full px-4 py-2 sm:px-5 sm:py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                placeholder="John Doe"
               />
             </label>
 
-            <label className="space-y-3">
-              <span className="field-label">Email address</span>
+            {/* Email Field */}
+            <label className="space-y-2 sm:space-y-3">
+              <span className="block text-sm sm:text-base font-medium text-gray-300">Email address</span>
               <input
                 type="email"
                 name="email"
                 value={form.email}
                 onChange={handleChange}
                 required
-                className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                className="w-full px-4 py-2 sm:px-5 sm:py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                placeholder="johndoe@gmail.com"
               />
             </label>
 
-            <label className="space-y-3">
-              <span className="field-label">Your message</span>
+            {/* Message Field */}
+            <label className="space-y-2 sm:space-y-3">
+              <span className="block text-sm sm:text-base font-medium text-gray-300">Your message</span>
               <textarea
                 name="message"
                 value={form.message}
                 onChange={handleChange}
                 required
-                rows={5}
-                className="field-input"
+                rows={3}
+                className="w-full px-4 py-2 sm:px-5 sm:py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                 placeholder="Share your thoughts or inquiries..."
               />
             </label>
 
-            <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Sending...' : 'Send Message'}
-
-              <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+            {/* Submit Button */}
+            <button
+              type="submit"
+              disabled={loading}
+              className="mt-4 sm:mt-6 px-6 py-3 bg-gradient-to-r from-blue-600 to-emerald-600 text-white font-medium rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all flex items-center justify-center space-x-2">
+              <span>{loading ? 'Sending...' : 'Send Message'}</span>
+              <img src="/assets/arrow-up.png" alt="arrow-up" className="w-4 h-4 filter brightness-0 invert" />
             </button>
           </form>
         </div>
@@ -131,3 +153,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
+// CONTACT SECTION DONE

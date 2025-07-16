@@ -10,7 +10,7 @@ import Skills from './sections/Skills.jsx';
 
 const App = () => {
   return (
-    <main className="max-w-7xl mx-auto relative">
+    <main className=" mx-auto relative">
       <Navbar />
       <Hero />
       <About />
