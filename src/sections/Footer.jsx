@@ -17,20 +17,24 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex gap-4 sm:gap-5">
             <a
-              href="#"
+              href="https://github.com/Salman-Nazeer"
               className="social-icon bg-gray-800 hover:bg-blue-600 transition-all duration-300 p-3 rounded-full flex items-center justify-center">
               <img src="/assets/github.svg" alt="github" className="w-5 h-5 sm:w-6 sm:h-6 filter brightness-0 invert" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/m-salman-nazeer-42a49326b"
               className="social-icon bg-gray-800 hover:bg-sky-500 transition-all duration-300 p-3 rounded-full flex items-center justify-center">
-              <img src="/assets/twitter.svg" alt="twitter" className="w-5 h-5 sm:w-6 sm:h-6" />
+              <img
+                src="/assets/linkedin.svg"
+                alt="twitter"
+                className="w-5 h-5 sm:w-6 sm:h-6 filter brightness-0 invert"
+              />
             </a>
-            <a
+            {/* <a
               href="#"
               className="social-icon bg-gray-800 hover:bg-pink-600 transition-all duration-300 p-3 rounded-full flex items-center justify-center">
               <img src="/assets/instagram.svg" alt="instagram" className="w-5 h-5 sm:w-6 sm:h-6" />
-            </a>
+            </a> */}
           </div>
 
           {/* Copyright */}
